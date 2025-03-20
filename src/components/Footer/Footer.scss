@@ -1,0 +1,180 @@
+.footer{
+    width: 1440px;
+    background-color: black;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 236px;
+    align-items: flex-start;
+    margin-top: 80px;
+    
+}
+.exclusive{
+    position: relative;
+    width: 217px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    h3{
+    color: rgb(250, 250, 250);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+    }
+
+    p{
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+    input{
+        width: 217px;
+        height: 48px;
+        background-color: black;
+        padding-left: 10px;
+    }
+    .send{
+        position: absolute;
+       left: 170px;
+       bottom: 8%;
+    }
+}
+
+.support{
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h3{
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+    p{
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+}
+
+.account{
+    width: 123px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h3{
+        color: rgb(250, 250, 250);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left; 
+    }
+
+    p{
+        color: rgb(250, 250, 250);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.quick-link{
+    width: 109px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h3{
+        color: rgb(250, 250, 250);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left; 
+    }
+
+    p{
+        color: rgb(250, 250, 250);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.download-app{
+    width: 198px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h3{
+        color: rgb(250, 250, 250);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left; 
+    }
+
+    h5{
+        color: rgb(250, 250, 250);
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+        opacity: 0.7;
+
+    }
+    
+    .socials{
+        display: flex;
+        gap: 13px;
+    }
+    .apps{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer-icons{
+        display: flex;
+        gap: 26px;
+        justify-content: center;
+    }
+
+}
